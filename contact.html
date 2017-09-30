@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <title>Studio Lani</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <navbar class="flex-container">
+            <h1 class="site-title">Studio Lani</h1>
+            <ul>
+                <li><a href="contact.html" id="tabs">Contact</a></li>
+                <li><a href="questions.html" id="tabs">FAQ</a></li>
+                <li><a href="index.html" id="tabs">Buy</a></li>
+                <li><a href="about.html" id="tabs">About</a></li>
+            </ul>
+        </navbar>
+    </header>
+    <script src="contact.js"></script>
+    <form id="my-form">
+        <div class = "form-container">
+            <div class = "form-element">
+                <label>Name:</label>
+                <input type="text" name="name">
+            </div>
+            <div class = "form-element">
+                <label>Email:</label>
+                <input type="text" name="email">
+            </div>
+            <div class = "form-element">
+                <label>Subject:
+                    <select name="gender">
+                        <option>Choose an option...</option>
+                        <option>Ordering</option>
+                        <option>Questions</option>
+                        <option> Comissions</option>
+                        <option>Other</option>
+                    </select>
+                </label>
+            </div>
+            <label>Message:</label>
+            <div class = "form-text">
+                <textarea type="text"></textarea>
+            </div>
+            <div class = "form-element">
+            <label>
+                <button type="submit"> Submit</button>
+            </label>
+            </div>
+        </div>
+    </form>
+
+    <p id=result> </p>
+</body>
+
+</html>

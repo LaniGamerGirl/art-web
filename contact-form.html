@@ -1,0 +1,71 @@
+ <!DOCTYPE html>
+<html>
+<head> </head>
+<body> 
+    <div class= "contact-form-container">
+<form class="contact-form" action="#" method= "POST"> 
+    <fieldset>
+        <legend>Contact Us</legend>
+        <label for="name">Name</label>
+        <input id="name" type="name" placeholder="name">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email">
+        <label for="subject">Subject</label>
+        <select id= "subjects"> 
+            <option>Choose an option...</option>
+            <option>Ordering</option>
+            <option>Questions</option>
+            <option> Comissions</option>
+            <option>Other</option>
+        </select>
+        <textarea></textarea>
+        <button type="submit" class="pure-button">Submit</button>
+    </fieldset>
+</form>
+</div>
+</body>
+    <style>
+    *{
+        box-sizing: border-box
+    }
+        .contact-form-container{
+            margin: 0 auto;
+            width: 50%;
+        }
+
+    .contact-form input[type="name"],
+    .contact-form input[type="email"],
+    .contact-form select,
+    .contact-form textarea{
+        width: 100%;
+        display: block;
+        border: 1px solid black;
+        margin: 0.25em 0;
+        padding: 0.5em 0.6em;
+        font-size: 0.8em;
+        border-radius: 4px;
+    }
+        .contact-form select {
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        .contact-form label{
+            margin: 0.5em 0.2em;
+            font-size: 90%;
+        }
+        .contact-form fieldset{
+            margin: 0;
+            padding: 0.35em 0.75em;
+            border: 0;
+        }
+        .contact-form legend{
+            display: block;
+            width: 100%;
+            padding 0.3em 0;
+            margin-bottom: 0.3em;
+            font-size: 125%;
+            color: #333;
+            border-bottom: 1px solid #e5e5e5;
+        }
+    </style>
+</html>

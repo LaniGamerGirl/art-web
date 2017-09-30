@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+.art-grid-container,
+.main-header-container {
+    display: block;
+}
+
+.wrapper {
+    
+}
+.nav {
+    
+}
+
+.site-title {
+
+}
+
+.main-header {
+    height: 51px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+main {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#tabs {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: black; 
+}
+
+#about {
+   font-family: 'Raleway';
+    padding-top: 100px;
+}
+
+#my-form {
+    padding-top: 100px;
+    font-family: 'Raleway';
+}
+
+.art-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.art-grid img {
+    width: 320px;
+    height: 320px;
+}
+
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-element *{
+    width: 100%;
+}
+.form-text *{
+    width: 100%;
+    
+}
